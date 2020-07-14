@@ -50,7 +50,7 @@ public class ContestListingActivity extends AppCompatActivity {
         setContentView(R.layout.activity_contest_listing);
 
         array = new String[]{
-                "/?username=" + R.string.username + "&api_key=" + R.string.api_key
+                "/?username=" + getString(R.string.clist_username) + "&api_key=" + getString(R.string.clist_key)
         };
 
         Intent intent = getIntent();
