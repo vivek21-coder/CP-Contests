@@ -1,5 +1,7 @@
 # CP-Contests
 
+This android app is used to see current running Competitive Programming Contests on some popular websites.
+
 To successfully run the application, add the following values to **string.xml** file inside **res/values/** directory
 
 ```
