@@ -31,11 +31,7 @@ import java.util.TimeZone;
 
 public class ContestListingActivity extends AppCompatActivity {
 
-    // 0   1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18
-    // 2   0   1   0   -   1   1   -   1   0   T   0   3   :   0   7   :   4   3
-    // y   y   y   y   -   M   M   -   d   d   T   H   H   :   m   m   :   s   s
-    // 2010-11-10T03:07:43
-    // yyyy-MM-ddThh:mm:ss
+
     static final String format = "yyyy-MM-dd'T'HH:mm:ss";
 
     JSONObject jsonObject;
@@ -54,12 +50,7 @@ public class ContestListingActivity extends AppCompatActivity {
         setContentView(R.layout.activity_contest_listing);
 
         array = new String[]{
-                "/?username=lala&api_key=c14d32439c924278ccc495b870b160806362e006",
-                "/?username=online1234course&api_key=4a6e61baeafde9015ea9c4d70750dbfdb263942e",
-                "/?username=second&api_key=e4ecced9e78833e879d0bc571ca9a748ec8d9e98",
-                "/?username=lalahutiya&api_key=77c1c0c3cd1ec0afc28f9eb21ac94eb3e5026b3e",
-                "/?username=ijnbfvjvd&api_key=9ae2cfa78296c90b087c317a946a0f553d701ee9",
-                "/?username=rufvxcvbvx&api_key=ff56281b7848ac43f27d02d75f116f0ad22df256"
+                "/?username=" + R.string.username + "&api_key=" + R.string.api_key
         };
 
         Intent intent = getIntent();
