@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlID"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/headingViewID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageViewID"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/headingViewID"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/s"
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/headingViewID"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/imageViewID"
+        android:layout_toRightOf="@+id/imageViewID"
+        android:gravity="right|center_vertical"
+        android:text="START" />
+
+    <TextView
+        android:id="@+id/e"
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/s"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/imageViewID"
+        android:layout_toRightOf="@+id/imageViewID"
+        android:gravity="right|center_vertical"
+        android:text="END" />
+
+    <TextView
+        android:id="@+id/startViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_below="@+id/headingViewID"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/s"
+        android:layout_toRightOf="@+id/s"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/endViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_below="@+id/startViewID"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/s"
+        android:layout_toRightOf="@+id/s"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/d"
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/endViewID"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/imageViewID"
+        android:layout_toRightOf="@+id/imageViewID"
+        android:gravity="right|center_vertical"
+        android:text="DURATION" />
+
+    <TextView
+        android:id="@+id/durationViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_below="@+id/endViewID"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/d"
+        android:layout_toRightOf="@+id/d"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/liveID"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/headingViewID"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/reddot"
+        android:gravity="center"
+        android:text="LIVE"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        android:textStyle="normal"
+        app:drawableTintMode="screen" />
+
+</RelativeLayout>

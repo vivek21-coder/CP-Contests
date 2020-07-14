@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "960159226620",
+    "firebase_url": "https://cp-contests.firebaseio.com",
+    "project_id": "cp-contests",
+    "storage_bucket": "cp-contests.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960159226620:android:7b51275ee4e8333df19579",
+        "android_client_info": {
+          "package_name": "com.coolapps.cpcontests"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960159226620-gmc6ta33fleoletc37e1ithqro7hq011.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy96rUcs2i6OXjFWNTMPFo4bKCCkUXn6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960159226620-gmc6ta33fleoletc37e1ithqro7hq011.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
