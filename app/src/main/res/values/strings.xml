@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">CP Contests</string>
     <string name="title_activity_contest_listing">ContestListingActivity</string>
+
+    <string name="clist_username">vivek21</string>
+    <string name="clist_key">3fcfcc8dee168913427938be6bec9e4c0187cab2</string>
 </resources>

@@ -30,9 +30,9 @@ public class MainActivity extends AppCompatActivity {
                 1,
                 2,
                 93,
-                73,
+//                73,
                 35,
-                12,
+//                12,
                 102
         };
 
@@ -40,9 +40,9 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.image1,
                 R.drawable.image2,
                 R.drawable.image93,
-                R.drawable.image73,
+//                R.drawable.image73,
                 R.drawable.image35,
-                R.drawable.image12,
+//                R.drawable.image12,
                 R.drawable.image102
         };
 
@@ -50,9 +50,9 @@ public class MainActivity extends AppCompatActivity {
                 "Codeforces",
                 "CodeChef",
                 "AtCoder",
-                "HackerEarth",
+//                "HackerEarth",
                 "Google",
-                "TopCoder",
+//                "TopCoder",
                 "LeetCode"
         };
 

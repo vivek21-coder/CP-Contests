@@ -11,9 +11,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -21,12 +19,7 @@ import java.sql.Timestamp;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.HashSet;
-import java.util.Random;
-import java.util.TimeZone;
+import java.util.*;
 
 
 public class ContestListingActivity extends AppCompatActivity {
@@ -40,7 +33,15 @@ public class ContestListingActivity extends AppCompatActivity {
     private String last_UTC;
     private int res_id;
 
-    private static final HashSet<Integer> resources = new HashSet<>(Arrays.asList(1, 2, 93, 73, 35, 12, 102));
+    private static final HashSet<Integer> resources = new HashSet<>(Arrays.asList(
+            1,
+            2,
+            93,
+//            73,
+            35,
+//            12,
+            102
+    ));
 
     private String[] array;
 
@@ -304,18 +305,18 @@ public class ContestListingActivity extends AppCompatActivity {
     ClipboardManager clipboard;
 
     private boolean isRated(String event, int res) {
-        switch (res) {
-            case 1:
-                return event.contains("Codeforces Round");
-            case 2:
-                return event.contains("Cook-Off") || event.contains("Lunchtime") || event.contains("Challenge");
-            case 73:
-                return event.contains("Circuits") || event.contains("Easy") || event.contains("Data Structures and Algorithms");
-            case 35:
-                return false;
-            case 12:
-                return event.contains("SRM");
-        }
+//        switch (res) {
+//            case 1:
+//                return event.contains("Codeforces Round");
+//            case 2:
+//                return event.contains("Cook-Off") || event.contains("Lunchtime") || event.contains("Challenge");
+//            case 73:
+//                return event.contains("Circuits") || event.contains("Easy") || event.contains("Data Structures and Algorithms");
+//            case 35:
+//                return false;
+//            case 12:
+//                return event.contains("SRM");
+//        }
         return true;
     }
 
@@ -335,12 +336,12 @@ public class ContestListingActivity extends AppCompatActivity {
                 return R.drawable.image2;
             case 93:
                 return R.drawable.image93;
-            case 73:
-                return R.drawable.image73;
+//            case 73:
+//                return R.drawable.image73;
             case 35:
                 return R.drawable.image35;
-            case 12:
-                return R.drawable.image12;
+//            case 12:
+//                return R.drawable.image12;
             case 102:
                 return R.drawable.image102;
         }
